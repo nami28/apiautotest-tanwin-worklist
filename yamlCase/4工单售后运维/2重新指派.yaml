@@ -1,0 +1,15 @@
+method: POST
+url: /profession/workorder/assignOperationsInfo
+
+重新指派1:
+  data: {"workId":"${workId}","userId":"17","userName":"胡永恒","companyName":"桐庐测试企业","reasonType":1,"reason":"超时未接单"}
+  check:
+    code: 0
+    success: true
+
+重新指派2:
+  data: {"workId":"${workId}","userId":"12581","userName":"黄娜梅","companyName":"桐庐测试企业","reasonType":3,"reason":"路程过远"}
+  check:
+    code: 0
+    success: true
+

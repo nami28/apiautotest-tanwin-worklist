@@ -1,0 +1,8 @@
+method: get
+url: /profession/workorder/getWorkOrderInfo
+
+查看工单详情:
+  data: {"workId":"${workId}"}
+  check:
+    code: 0
+    success: true

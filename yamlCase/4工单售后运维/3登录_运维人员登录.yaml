@@ -1,0 +1,9 @@
+method: post
+url: /auth/login
+
+运维人员正常登录:
+  data: {"account": "${workstaff}","password": "123456", "platform": "1"}
+  check:
+    msg: 成功
+    success: true
+    code: 0

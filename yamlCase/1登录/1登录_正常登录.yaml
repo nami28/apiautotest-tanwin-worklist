@@ -1,0 +1,9 @@
+method: post
+url: /auth/login
+
+正常登录:
+  data: {"account": "${login}","password": "123456", "platform": "1"}
+  check:
+    msg: 成功
+    success: true
+    code: 0

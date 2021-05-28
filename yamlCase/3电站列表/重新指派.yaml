@@ -1,0 +1,23 @@
+method: post
+url: /middle/station/changeMaintain
+
+重新指派1:
+  data: {"stationIds": "${stationIds}","maintainId":"1705","endTime":"1619020800000","type":1,"msg":""}
+  check:
+    code : 0
+    msg:  成功
+    success: true
+
+重新指派2:
+  data: {"stationIds": "${stationIds}","maintainId":"1705","endTime":"1619020800000","type":2,"msg":""}
+  check:
+    code : 0
+    msg:  成功
+    success: true
+
+重新指派选择其他原因:
+  data: {"stationIds": "${stationIds}","maintainId":"1705","endTime":"1619020800000","type":9,"msg":"这是重新指派原因"}
+  check:
+    code : 0
+    msg:  成功
+    success: true

@@ -1,0 +1,26 @@
+method: get
+url: /profession/workorder/queryWorkOrderInfoList
+
+工单售后运维列表查询:
+  data: {"source":"",companyId": "", "workType": "0","searchKey":"" ,"pageNo":"1","pageSize":"10"}
+  check:
+    code: 0
+    success: true
+
+工单售后运维列表工单来源查询:
+  data: {"source":"1","companyId": "", "workType": "0","searchKey":"" ,"pageNo":"1","pageSize":"10"}
+  check:
+    code: 0
+    success: true
+
+工单售后运维列表全部查询:
+  data: {"source":"",companyId": "", "workType": "0","searchKey":"" ,"pageNo":"1","pageSize":"10"}
+  check:
+    code: 0
+    success: true
+
+工单售后运维列表客户提交查询:
+  data: {"source":"2","companyId": "", "workType": "0","searchKey":"" ,"pageNo":"1","pageSize":"10"}
+  check:
+    code: 0
+    success: true

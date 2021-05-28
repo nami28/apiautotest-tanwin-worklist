@@ -1,0 +1,8 @@
+method: post
+url: /profession/workorderflowecho/1000000
+
+工单售后运维回显:
+  data: {"flowId": "${flowId}"}
+  check:
+    success: true
+    code: 0

@@ -1,0 +1,9 @@
+method: post
+url: /middle/station/changeInverterId
+
+编辑逆变器id:
+  data: {"id": "69","thirdStationId": "354354"}
+  check:
+    msg: 成功
+    success: true
+    code: 0

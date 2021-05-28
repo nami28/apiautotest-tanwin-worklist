@@ -1,0 +1,13 @@
+method: post
+url: /profession/workorder/saveWorkOrderComment
+
+客户端已评价:
+  data: {"workId":31,"workNo":"GD2105281058115372","serviceRank":2,"timeRank":2,"content":"评价","bmpBid":"http://photo.tanwin.cn/tempfile/2021-04-30/52e55fb6ba63ccf446f404b87ae059b0.jpeg","workType":0}
+  check:
+    msg: 工单已评论！
+
+客户端评价:
+  data: {"workId":"${workId}","workNo":"${workNo}","serviceRank":2,"timeRank":2,"content":"评价","bmpBid":"http://photo.tanwin.cn/tempfile/2021-04-30/52e55fb6ba63ccf446f404b87ae059b0.jpeg","workType":0}
+  check:
+    msg: 成功
+    code: 0

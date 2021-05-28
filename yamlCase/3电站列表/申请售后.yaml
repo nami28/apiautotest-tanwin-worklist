@@ -1,0 +1,7 @@
+method: post
+url: /profession/workorder/saveWorkOrderInfo
+# 申请售后会产生一个workid，后面工单重新指派、接单、上门、处理、评价、查看会用到
+申请售后:
+  data: {"provinceNo": "330000","cityNo": "330100","areaNo": "330122","stationId": "${stationId}","projectId": "50596","projectNo": "TF20210426150552002","clientId": "17","clientName": "电运","clientPhone": "17316918814","completeAddress": "古古怪怪刚刚干活","appointment": "2021-05-23 09:30:00,2021-05-23 11:30:00","companyId": "1705","companyName": "桐庐测试企业","capacitySize": "1360.00","reason": "这是申请售后填写的内容","address": "浙江省 杭州市 桐庐县","workType": 0,"source": 2,"beforeImgBid": "http://photo.tanwin.cn/tempfile/2021-05-17/542a09d6e465db1c626d88502bb4178c.jpg","beforeVideoBid": ""}
+  check:
+    code: 0

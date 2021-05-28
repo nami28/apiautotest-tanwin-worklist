@@ -1,0 +1,8 @@
+method: GET
+url: /userauth/company/operationEmps
+
+重新指派获取运维人员:
+  data: {"companyId:": 1705}
+  check:
+    code: 0
+    success: true

@@ -1,0 +1,8 @@
+method: get
+url: /profession/workorder/getWorkOrderComment
+
+获取工单评论详情:
+  data: {"workId":"${workId}","workType":0}
+  check:
+    code: 0
+    success: true

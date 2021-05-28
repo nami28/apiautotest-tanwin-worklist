@@ -1,0 +1,7 @@
+method: post
+url: /middle/station/stationOperationList
+
+电站详情备注信息:
+  data: {"stationId": "${stationId}"}
+  check:
+    code: 0

@@ -1,0 +1,8 @@
+method: post
+url: /middle/station/changeInverterInfo
+#修改逆变器信息   文字不要修改，如要修改，请记得把测试用例的文字也一并都修改，且该用例执行第二次时，请记得修改参数，否则再次提交数据已存在
+修改逆变器信息:
+  data: {"stationId": "${stationId}","supplier":"12","deviceName":"GW216K-DT","sn":"4025KD120BG","id":'${id}'}
+  check:
+    code: 0
+    msg: 成功

@@ -1,0 +1,11 @@
+method: post
+url: /middle/station/saveOperationMsg
+
+电站详情新增备注:
+  data: {"stationId": "${stationId}","operateMsg":"这是新增备注时输入的内容","imgUrls":"","fileUrls":""}
+  check:
+    code: 0
+电站详情新增备注1:
+  data: {"stationId": "${stationId}","operateMsg":"这是新增备注1时输入的内容","imgUrls":"http://photo.tanwin.cn/tempfile/2021-04-29/4f84faf1e1e3f5752881e7acc7a01a74.jpg","fileUrls":""}
+  check:
+    code: 0

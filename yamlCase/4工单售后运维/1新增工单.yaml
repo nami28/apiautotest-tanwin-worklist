@@ -1,0 +1,7 @@
+method: post
+url: /profession/workorder/saveWorkOrderInfo
+
+新增工单:
+  data: {"provinceNo": "330000","cityNo": "330100","areaNo": "330122","stationId": "${stationId}","projectId": "50596","projectNo": "TF20210426150552002","clientId": "17","clientName": "电运","clientPhone": "17316918814","completeAddress": "古古怪怪刚刚干活","appointment": "2021-11-18 09:30:00,2021-11-18 11:30:00","companyId": "1705","companyName": "桐庐测试企业","capacitySize": "1360.00","reason": "这是申请售后填写的内容","address": "浙江省 杭州市 桐庐县","workType": 0,"source": 2,"beforeImgBid": "http://photo.tanwin.cn/tempfile/2021-04-29/954ced98b0b92e825a0ab43c5779c1ee.jpg","beforeVideoBid": "http://photo.tanwin.cn/tempfile/2021-04-29/e2c5a3b9c725586bee42e7a9145f60c9.mp4"}
+  check:
+    code: 0

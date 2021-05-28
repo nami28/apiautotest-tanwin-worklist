@@ -1,0 +1,7 @@
+method: post
+url: /middle/station/stationList
+
+电站列表查询:
+  data: {"supplier": "", "status": "","busiType":"" ,"companyId":"","key": "","pageNo":"1","pageSize":"10"}
+  check:
+    code: 0

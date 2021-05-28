@@ -1,0 +1,7 @@
+method: post
+url: /middle/station/totalData
+
+电站统计:
+  data: {}
+  check:
+    code: 0

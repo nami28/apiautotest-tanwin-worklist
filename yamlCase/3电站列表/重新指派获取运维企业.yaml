@@ -1,0 +1,16 @@
+method: get
+url: /userauth/company/operationList
+
+重新指派获取运维企业1:
+  data: {"areaCode": "330109"}
+  check:
+    code : 0
+    msg:  成功
+    success: true
+
+重新指派获取运维企业2:
+  data: {"areaCode": "330122"}
+  check:
+    code : 0
+    msg:  成功
+    success: true

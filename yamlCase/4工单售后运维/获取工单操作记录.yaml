@@ -1,0 +1,8 @@
+method: get
+url: /profession/workorder/queryWorkOrderLogList
+
+获取工单操作记录:
+  data: {"workId":"${workId}","workType":0}
+  check:
+    code: 0
+    success: true

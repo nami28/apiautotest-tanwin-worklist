@@ -1,0 +1,8 @@
+method: post
+url: /profession/projectInfo/findProjectBaseInfo
+
+新增工单获取项目详情:
+  data: {"projectId": "${projectId}"}
+  check:
+    code: 0
+    success: true

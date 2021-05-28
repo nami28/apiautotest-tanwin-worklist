@@ -1,0 +1,7 @@
+method: post
+url: /middle/station/dataList
+
+电站数据:
+  data: {"stationId": "${stationId}"}
+  check:
+    code: 0

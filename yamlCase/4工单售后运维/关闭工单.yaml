@@ -1,0 +1,8 @@
+method: get
+url: /profession/workorder/cancelWorkOrderInfo
+
+关闭工单:
+  data: {"workId":"${workId}","reason":"恢复正常","reasonType":1}
+  check:
+    msg:  成功
+    code: 0

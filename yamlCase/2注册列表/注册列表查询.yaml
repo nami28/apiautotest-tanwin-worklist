@@ -1,0 +1,27 @@
+method: post
+url: /middle/station/registerStationList
+
+组合全部参数:
+  data: {"pageNo": "1","pageSize": "50","province": "330000","city": "330100","area": "330122","companyId": "1705","supplier": "1","registerStatus": "1","key": "17316918814"}
+  check:  true
+
+输入参数为空:
+  data: {"pageNo": "1","pageSize": "50","province": "","city": "","area": "","companyId": "","supplier": "","registerStatus": "","key": ""}
+  check:  true
+
+输入项目地址:
+  data: {"pageNo": "1","pageSize": "50","province": "330000","city": "330100","area": "330122","companyId": "","supplier": "","registerStatus": "","key": ""}
+  check:  true
+
+输入合伙人:
+  data:  {"pageNo": "1","pageSize": "50","province": "","city": "","area": "","companyId": "1705","supplier": "","registerStatus": "","key": ""}
+  check:  true
+
+输入注册状态:
+  data: {"pageNo": "1","pageSize": "50","province": "","city": "","area": "","companyId": "","supplier": "","registerStatus": "0","key": ""}
+  check:  true
+
+查询关键字:
+  data:  {"pageNo": "1","pageSize": "50","province": "330000","city": "330100","area": "330122","companyId": "","supplier": "","registerStatus": "","key": "胡永恒"}
+  check:  true
+

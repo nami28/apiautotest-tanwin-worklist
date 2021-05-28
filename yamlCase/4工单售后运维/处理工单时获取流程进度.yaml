@@ -1,0 +1,7 @@
+method: get
+url: /process/client/processProcessInfoList
+
+处理工单时获取流程进度:
+  data: {"mode": 1,"processInstanceId": "${processInstanceId}"}
+  check:
+    code: 0

@@ -1,0 +1,8 @@
+method: POST
+url: /auth/userDetail
+
+处理工单时获取用户信息:
+  data: {}
+  check:
+    code: 0
+    success: true

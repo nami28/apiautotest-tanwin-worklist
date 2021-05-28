@@ -1,0 +1,6 @@
+method: get
+url: /middle/station/stationListExport
+
+无条件查询导出:
+  data: {"status": "","busiType": "","companyId": "","key": ""}
+  check:  true

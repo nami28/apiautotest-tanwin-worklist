@@ -1,0 +1,8 @@
+method: post
+url: /process/client/completeTask
+
+签到:
+  data: {"taskId": "${taskId}","clientName":"电运","clientPhone":"17316918814","completeAddress":"浙江省杭州市桐庐县古古怪怪刚刚干活","capacitySize":1360.00,"reason":"这是工单需求","appointment":"2021-12-09 09:30:00,2021-12-09 11:30:00","signPosition":"4.9E-324,4.9E-324","signAddress":"null","beforeVideoBid":"","SUBMIT_SERVICE_API_PUSH_101":"9,1000010,,workorderflow/processpush","orderSignIn":0}
+  check:
+    msg: 任务办理成功
+    code: 0

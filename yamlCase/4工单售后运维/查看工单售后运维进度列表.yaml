@@ -1,0 +1,8 @@
+method: get
+url: /profession/workorder/getWorkOrderInfoStepList
+
+查看工单售后运维进度列表:
+  data: {"workId":"${workId}"}
+  check:
+    code: 0
+    success: true
